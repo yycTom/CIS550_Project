@@ -1,0 +1,14 @@
+COVID-19 Data
+https://www.kaggle.com/tunguz/data-on-covid19-coronavirus
+
+Impact on Traffic
+https://www.kaggle.com/terenceshin/covid19s-impact-on-airport-traffic
+
+World Happiness Report up to 2020
+https://www.kaggle.com/mathurinache/world-happiness-report?select=2020.csv
+
+US Avocado Prices (2020)
+https://www.kaggle.com/timmate/avocado-prices-2020
+
+WORLD DATA by country (2020)
+https://www.kaggle.com/daniboy370/world-data-by-country-2020?select=GDP+per+capita.csv

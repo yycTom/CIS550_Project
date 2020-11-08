@@ -1,0 +1,936 @@
+country,year,score
+Finland,2020,7.81
+Denmark,2020,7.65
+Switzerland,2020,7.56
+Iceland,2020,7.50
+Norway,2020,7.49
+Netherlands,2020,7.45
+Sweden,2020,7.35
+New Zealand,2020,7.30
+Austria,2020,7.29
+Luxembourg,2020,7.24
+Canada,2020,7.23
+Australia,2020,7.22
+United Kingdom,2020,7.16
+Israel,2020,7.13
+Costa Rica,2020,7.12
+Ireland,2020,7.09
+Germany,2020,7.08
+United States,2020,6.94
+Czech Republic,2020,6.91
+Belgium,2020,6.86
+United Arab Emirates,2020,6.79
+Malta,2020,6.77
+France,2020,6.66
+Mexico,2020,6.47
+Taiwan Province of China,2020,6.46
+Uruguay,2020,6.44
+Saudi Arabia,2020,6.41
+Spain,2020,6.40
+Guatemala,2020,6.40
+Italy,2020,6.39
+Singapore,2020,6.38
+Brazil,2020,6.38
+Slovenia,2020,6.36
+El Salvador,2020,6.35
+Kosovo,2020,6.33
+Panama,2020,6.30
+Slovakia,2020,6.28
+Uzbekistan,2020,6.26
+Chile,2020,6.23
+Bahrain,2020,6.23
+Lithuania,2020,6.22
+Trinidad and Tobago,2020,6.19
+Poland,2020,6.19
+Colombia,2020,6.16
+Cyprus,2020,6.16
+Nicaragua,2020,6.14
+Romania,2020,6.12
+Kuwait,2020,6.10
+Mauritius,2020,6.10
+Kazakhstan,2020,6.06
+Estonia,2020,6.02
+Philippines,2020,6.01
+Hungary,2020,6.00
+Thailand,2020,6.00
+Argentina,2020,5.97
+Honduras,2020,5.95
+Latvia,2020,5.95
+Ecuador,2020,5.93
+Portugal,2020,5.91
+Jamaica,2020,5.89
+South Korea,2020,5.87
+Japan,2020,5.87
+Peru,2020,5.80
+Serbia,2020,5.78
+Bolivia,2020,5.75
+Pakistan,2020,5.69
+Paraguay,2020,5.69
+Dominican Republic,2020,5.69
+Bosnia and Herzegovina,2020,5.67
+Moldova,2020,5.61
+Tajikistan,2020,5.56
+Montenegro,2020,5.55
+Russia,2020,5.55
+Kyrgyzstan,2020,5.54
+Belarus,2020,5.54
+North Cyprus,2020,5.54
+Greece,2020,5.51
+Hong Kong S.A.R. of China,2020,5.51
+Croatia,2020,5.50
+Libya,2020,5.49
+Mongolia,2020,5.46
+Malaysia,2020,5.38
+Vietnam,2020,5.35
+Indonesia,2020,5.29
+Ivory Coast,2020,5.23
+Benin,2020,5.22
+Maldives,2020,5.20
+Congo (Brazzaville),2020,5.19
+Azerbaijan,2020,5.16
+Macedonia,2020,5.16
+Ghana,2020,5.15
+Nepal,2020,5.14
+Turkey,2020,5.13
+China,2020,5.12
+Turkmenistan,2020,5.12
+Bulgaria,2020,5.10
+Morocco,2020,5.09
+Cameroon,2020,5.08
+Venezuela,2020,5.05
+Algeria,2020,5.01
+Senegal,2020,4.98
+Guinea,2020,4.95
+Niger,2020,4.91
+Laos,2020,4.89
+Albania,2020,4.88
+Cambodia,2020,4.85
+Bangladesh,2020,4.83
+Gabon,2020,4.83
+South Africa,2020,4.81
+Iraq,2020,4.78
+Lebanon,2020,4.77
+Burkina Faso,2020,4.77
+Gambia,2020,4.75
+Mali,2020,4.73
+Nigeria,2020,4.72
+Armenia,2020,4.68
+Georgia,2020,4.67
+Iran,2020,4.67
+Jordan,2020,4.63
+Mozambique,2020,4.62
+Kenya,2020,4.58
+Namibia,2020,4.57
+Ukraine,2020,4.56
+Liberia,2020,4.56
+Palestinian Territories,2020,4.55
+Uganda,2020,4.43
+Chad,2020,4.42
+Tunisia,2020,4.39
+Mauritania,2020,4.37
+Sri Lanka,2020,4.33
+Congo (Kinshasa),2020,4.31
+Swaziland,2020,4.31
+Myanmar,2020,4.31
+Comoros,2020,4.29
+Togo,2020,4.19
+Ethiopia,2020,4.19
+Madagascar,2020,4.17
+Egypt,2020,4.15
+Sierra Leone,2020,3.93
+Burundi,2020,3.78
+Zambia,2020,3.76
+Haiti,2020,3.72
+Lesotho,2020,3.65
+India,2020,3.57
+Malawi,2020,3.54
+Yemen,2020,3.53
+Botswana,2020,3.48
+Tanzania,2020,3.48
+Central African Republic,2020,3.48
+Rwanda,2020,3.31
+Zimbabwe,2020,3.30
+South Sudan,2020,2.82
+Afghanistan,2020,2.57
+Finland,2019,7.77
+Denmark,2019,7.60
+Norway,2019,7.55
+Iceland,2019,7.49
+Netherlands,2019,7.49
+Switzerland,2019,7.48
+Sweden,2019,7.34
+New Zealand,2019,7.31
+Canada,2019,7.28
+Austria,2019,7.25
+Australia,2019,7.23
+Costa Rica,2019,7.17
+Israel,2019,7.14
+Luxembourg,2019,7.09
+United Kingdom,2019,7.05
+Ireland,2019,7.02
+Germany,2019,6.99
+Belgium,2019,6.92
+United States,2019,6.89
+Czech Republic,2019,6.85
+United Arab Emirates,2019,6.83
+Malta,2019,6.73
+Mexico,2019,6.59
+France,2019,6.59
+Taiwan,2019,6.45
+Chile,2019,6.44
+Guatemala,2019,6.44
+Saudi Arabia,2019,6.38
+Qatar,2019,6.37
+Spain,2019,6.35
+Panama,2019,6.32
+Brazil,2019,6.30
+Uruguay,2019,6.29
+Singapore,2019,6.26
+El Salvador,2019,6.25
+Italy,2019,6.22
+Bahrain,2019,6.20
+Slovakia,2019,6.20
+Trinidad & Tobago,2019,6.19
+Poland,2019,6.18
+Uzbekistan,2019,6.17
+Lithuania,2019,6.15
+Colombia,2019,6.12
+Slovenia,2019,6.12
+Nicaragua,2019,6.11
+Kosovo,2019,6.10
+Argentina,2019,6.09
+Romania,2019,6.07
+Cyprus,2019,6.05
+Ecuador,2019,6.03
+Kuwait,2019,6.02
+Thailand,2019,6.01
+Latvia,2019,5.94
+South Korea,2019,5.89
+Estonia,2019,5.89
+Jamaica,2019,5.89
+Mauritius,2019,5.89
+Japan,2019,5.89
+Honduras,2019,5.86
+Kazakhstan,2019,5.81
+Bolivia,2019,5.78
+Hungary,2019,5.76
+Paraguay,2019,5.74
+Northern Cyprus,2019,5.72
+Peru,2019,5.70
+Portugal,2019,5.69
+Pakistan,2019,5.65
+Russia,2019,5.65
+Philippines,2019,5.63
+Serbia,2019,5.60
+Moldova,2019,5.53
+Libya,2019,5.53
+Montenegro,2019,5.52
+Tajikistan,2019,5.47
+Croatia,2019,5.43
+Hong Kong,2019,5.43
+Dominican Republic,2019,5.42
+Bosnia and Herzegovina,2019,5.39
+Turkey,2019,5.37
+Malaysia,2019,5.34
+Belarus,2019,5.32
+Greece,2019,5.29
+Mongolia,2019,5.29
+North Macedonia,2019,5.27
+Nigeria,2019,5.26
+Kyrgyzstan,2019,5.26
+Turkmenistan,2019,5.25
+Algeria,2019,5.21
+Morocco,2019,5.21
+Azerbaijan,2019,5.21
+Lebanon,2019,5.20
+Indonesia,2019,5.19
+China,2019,5.19
+Vietnam,2019,5.17
+Bhutan,2019,5.08
+Cameroon,2019,5.04
+Bulgaria,2019,5.01
+Ghana,2019,5.00
+Ivory Coast,2019,4.94
+Nepal,2019,4.91
+Jordan,2019,4.91
+Benin,2019,4.88
+Congo (Brazzaville),2019,4.81
+Gabon,2019,4.80
+Laos,2019,4.80
+South Africa,2019,4.72
+Albania,2019,4.72
+Venezuela,2019,4.71
+Cambodia,2019,4.70
+Palestinian Territories,2019,4.70
+Senegal,2019,4.68
+Somalia,2019,4.67
+Namibia,2019,4.64
+Niger,2019,4.63
+Burkina Faso,2019,4.59
+Armenia,2019,4.56
+Iran,2019,4.55
+Guinea,2019,4.53
+Georgia,2019,4.52
+Gambia,2019,4.52
+Kenya,2019,4.51
+Mauritania,2019,4.49
+Mozambique,2019,4.47
+Tunisia,2019,4.46
+Bangladesh,2019,4.46
+Iraq,2019,4.44
+Congo (Kinshasa),2019,4.42
+Mali,2019,4.39
+Sierra Leone,2019,4.37
+Sri Lanka,2019,4.37
+Myanmar,2019,4.36
+Chad,2019,4.35
+Ukraine,2019,4.33
+Ethiopia,2019,4.29
+Swaziland,2019,4.21
+Uganda,2019,4.19
+Egypt,2019,4.17
+Zambia,2019,4.11
+Togo,2019,4.08
+India,2019,4.01
+Liberia,2019,3.98
+Comoros,2019,3.97
+Madagascar,2019,3.93
+Lesotho,2019,3.80
+Burundi,2019,3.77
+Zimbabwe,2019,3.66
+Haiti,2019,3.60
+Botswana,2019,3.49
+Syria,2019,3.46
+Malawi,2019,3.41
+Yemen,2019,3.38
+Rwanda,2019,3.33
+Tanzania,2019,3.23
+Afghanistan,2019,3.20
+Central African Republic,2019,3.08
+South Sudan,2019,2.85
+Finland,2018,7.63
+Norway,2018,7.59
+Denmark,2018,7.55
+Iceland,2018,7.50
+Switzerland,2018,7.49
+Netherlands,2018,7.44
+Canada,2018,7.33
+New Zealand,2018,7.32
+Sweden,2018,7.31
+Australia,2018,7.27
+United Kingdom,2018,7.19
+Austria,2018,7.14
+Costa Rica,2018,7.07
+Ireland,2018,6.98
+Germany,2018,6.96
+Belgium,2018,6.93
+Luxembourg,2018,6.91
+United States,2018,6.89
+Israel,2018,6.81
+United Arab Emirates,2018,6.77
+Czech Republic,2018,6.71
+Malta,2018,6.63
+France,2018,6.49
+Mexico,2018,6.49
+Chile,2018,6.48
+Taiwan,2018,6.44
+Panama,2018,6.43
+Brazil,2018,6.42
+Argentina,2018,6.39
+Guatemala,2018,6.38
+Uruguay,2018,6.38
+Qatar,2018,6.37
+Saudi Arabia,2018,6.37
+Singapore,2018,6.34
+Malaysia,2018,6.32
+Spain,2018,6.31
+Colombia,2018,6.26
+Trinidad & Tobago,2018,6.19
+Slovakia,2018,6.17
+El Salvador,2018,6.17
+Nicaragua,2018,6.14
+Poland,2018,6.12
+Bahrain,2018,6.11
+Uzbekistan,2018,6.10
+Kuwait,2018,6.08
+Thailand,2018,6.07
+Italy,2018,6.00
+Ecuador,2018,5.97
+Belize,2018,5.96
+Lithuania,2018,5.95
+Slovenia,2018,5.95
+Romania,2018,5.95
+Latvia,2018,5.93
+Japan,2018,5.92
+Mauritius,2018,5.89
+Jamaica,2018,5.89
+South Korea,2018,5.88
+Northern Cyprus,2018,5.83
+Russia,2018,5.81
+Kazakhstan,2018,5.79
+Cyprus,2018,5.76
+Bolivia,2018,5.75
+Estonia,2018,5.74
+Paraguay,2018,5.68
+Peru,2018,5.66
+Kosovo,2018,5.66
+Moldova,2018,5.64
+Turkmenistan,2018,5.64
+Hungary,2018,5.62
+Libya,2018,5.57
+Philippines,2018,5.52
+Honduras,2018,5.50
+Belarus,2018,5.48
+Turkey,2018,5.48
+Pakistan,2018,5.47
+Hong Kong,2018,5.43
+Portugal,2018,5.41
+Serbia,2018,5.40
+Greece,2018,5.36
+Lebanon,2018,5.36
+Montenegro,2018,5.35
+Croatia,2018,5.32
+Dominican Republic,2018,5.30
+Algeria,2018,5.29
+Morocco,2018,5.25
+China,2018,5.25
+Azerbaijan,2018,5.20
+Tajikistan,2018,5.20
+Macedonia,2018,5.18
+Jordan,2018,5.16
+Nigeria,2018,5.16
+Kyrgyzstan,2018,5.13
+Bosnia and Herzegovina,2018,5.13
+Mongolia,2018,5.12
+Vietnam,2018,5.10
+Indonesia,2018,5.09
+Bhutan,2018,5.08
+Somalia,2018,4.98
+Cameroon,2018,4.97
+Bulgaria,2018,4.93
+Nepal,2018,4.88
+Venezuela,2018,4.81
+Gabon,2018,4.76
+Palestinian Territories,2018,4.74
+South Africa,2018,4.72
+Iran,2018,4.71
+Ivory Coast,2018,4.67
+Ghana,2018,4.66
+Senegal,2018,4.63
+Laos,2018,4.62
+Tunisia,2018,4.59
+Albania,2018,4.59
+Sierra Leone,2018,4.57
+Congo (Brazzaville),2018,4.56
+Bangladesh,2018,4.50
+Sri Lanka,2018,4.47
+Iraq,2018,4.46
+Mali,2018,4.45
+Namibia,2018,4.44
+Cambodia,2018,4.43
+Burkina Faso,2018,4.42
+Egypt,2018,4.42
+Mozambique,2018,4.42
+Kenya,2018,4.41
+Zambia,2018,4.38
+Mauritania,2018,4.36
+Ethiopia,2018,4.35
+Georgia,2018,4.34
+Armenia,2018,4.32
+Myanmar,2018,4.31
+Chad,2018,4.30
+Congo (Kinshasa),2018,4.25
+India,2018,4.19
+Niger,2018,4.17
+Uganda,2018,4.16
+Benin,2018,4.14
+Sudan,2018,4.14
+Ukraine,2018,4.10
+Togo,2018,4.00
+Guinea,2018,3.96
+Lesotho,2018,3.81
+Angola,2018,3.79
+Madagascar,2018,3.77
+Zimbabwe,2018,3.69
+Afghanistan,2018,3.63
+Botswana,2018,3.59
+Malawi,2018,3.59
+Haiti,2018,3.58
+Liberia,2018,3.50
+Syria,2018,3.46
+Rwanda,2018,3.41
+Yemen,2018,3.35
+Tanzania,2018,3.30
+South Sudan,2018,3.25
+Central African Republic,2018,3.08
+Burundi,2018,2.90
+Switzerland,2015,7.59
+Iceland,2015,7.56
+Denmark,2015,7.53
+Norway,2015,7.52
+Canada,2015,7.43
+Finland,2015,7.41
+Netherlands,2015,7.38
+Sweden,2015,7.36
+New Zealand,2015,7.29
+Australia,2015,7.28
+Israel,2015,7.28
+Costa Rica,2015,7.23
+Austria,2015,7.20
+Mexico,2015,7.19
+United States,2015,7.12
+Brazil,2015,6.98
+Luxembourg,2015,6.95
+Ireland,2015,6.94
+Belgium,2015,6.94
+United Arab Emirates,2015,6.90
+United Kingdom,2015,6.87
+Oman,2015,6.85
+Venezuela,2015,6.81
+Singapore,2015,6.80
+Panama,2015,6.79
+Germany,2015,6.75
+Chile,2015,6.67
+Qatar,2015,6.61
+France,2015,6.58
+Argentina,2015,6.57
+Czech Republic,2015,6.50
+Uruguay,2015,6.49
+Colombia,2015,6.48
+Thailand,2015,6.46
+Saudi Arabia,2015,6.41
+Spain,2015,6.33
+Malta,2015,6.30
+Taiwan,2015,6.30
+Kuwait,2015,6.29
+Suriname,2015,6.27
+Trinidad and Tobago,2015,6.17
+El Salvador,2015,6.13
+Guatemala,2015,6.12
+Uzbekistan,2015,6.00
+Slovakia,2015,6.00
+Japan,2015,5.99
+South Korea,2015,5.98
+Ecuador,2015,5.97
+Bahrain,2015,5.96
+Italy,2015,5.95
+Bolivia,2015,5.89
+Moldova,2015,5.89
+Paraguay,2015,5.88
+Kazakhstan,2015,5.86
+Slovenia,2015,5.85
+Lithuania,2015,5.83
+Nicaragua,2015,5.83
+Peru,2015,5.82
+Belarus,2015,5.81
+Poland,2015,5.79
+Malaysia,2015,5.77
+Croatia,2015,5.76
+Libya,2015,5.75
+Russia,2015,5.72
+Jamaica,2015,5.71
+North Cyprus,2015,5.70
+Cyprus,2015,5.69
+Algeria,2015,5.61
+Kosovo,2015,5.59
+Turkmenistan,2015,5.55
+Mauritius,2015,5.48
+Hong Kong,2015,5.47
+Estonia,2015,5.43
+Indonesia,2015,5.40
+Vietnam,2015,5.36
+Turkey,2015,5.33
+Kyrgyzstan,2015,5.29
+Nigeria,2015,5.27
+Bhutan,2015,5.25
+Azerbaijan,2015,5.21
+Pakistan,2015,5.19
+Jordan,2015,5.19
+Montenegro,2015,5.19
+China,2015,5.14
+Zambia,2015,5.13
+Romania,2015,5.12
+Serbia,2015,5.12
+Portugal,2015,5.10
+Latvia,2015,5.10
+Philippines,2015,5.07
+Somaliland region,2015,5.06
+Morocco,2015,5.01
+Macedonia,2015,5.01
+Mozambique,2015,4.97
+Albania,2015,4.96
+Bosnia and Herzegovina,2015,4.95
+Lesotho,2015,4.90
+Dominican Republic,2015,4.88
+Laos,2015,4.88
+Mongolia,2015,4.87
+Swaziland,2015,4.87
+Greece,2015,4.86
+Lebanon,2015,4.84
+Hungary,2015,4.80
+Honduras,2015,4.79
+Tajikistan,2015,4.79
+Tunisia,2015,4.74
+Palestinian Territories,2015,4.71
+Bangladesh,2015,4.69
+Iran,2015,4.69
+Ukraine,2015,4.68
+Iraq,2015,4.68
+South Africa,2015,4.64
+Ghana,2015,4.63
+Zimbabwe,2015,4.61
+Liberia,2015,4.57
+India,2015,4.57
+Sudan,2015,4.55
+Haiti,2015,4.52
+Congo (Kinshasa),2015,4.52
+Nepal,2015,4.51
+Ethiopia,2015,4.51
+Sierra Leone,2015,4.51
+Mauritania,2015,4.44
+Kenya,2015,4.42
+Djibouti,2015,4.37
+Armenia,2015,4.35
+Botswana,2015,4.33
+Myanmar,2015,4.31
+Georgia,2015,4.30
+Malawi,2015,4.29
+Sri Lanka,2015,4.27
+Cameroon,2015,4.25
+Bulgaria,2015,4.22
+Egypt,2015,4.19
+Yemen,2015,4.08
+Angola,2015,4.03
+Mali,2015,4.00
+Congo (Brazzaville),2015,3.99
+Comoros,2015,3.96
+Uganda,2015,3.93
+Senegal,2015,3.90
+Gabon,2015,3.90
+Niger,2015,3.85
+Cambodia,2015,3.82
+Tanzania,2015,3.78
+Madagascar,2015,3.68
+Central African Republic,2015,3.68
+Chad,2015,3.67
+Guinea,2015,3.66
+Ivory Coast,2015,3.65
+Burkina Faso,2015,3.59
+Afghanistan,2015,3.58
+Rwanda,2015,3.46
+Benin,2015,3.34
+Syria,2015,3.01
+Burundi,2015,2.90
+Togo,2015,2.84
+Denmark,2016,7.53
+Switzerland,2016,7.51
+Iceland,2016,7.50
+Norway,2016,7.50
+Finland,2016,7.41
+Canada,2016,7.40
+Netherlands,2016,7.34
+New Zealand,2016,7.33
+Australia,2016,7.31
+Sweden,2016,7.29
+Israel,2016,7.27
+Austria,2016,7.12
+United States,2016,7.10
+Costa Rica,2016,7.09
+Puerto Rico,2016,7.04
+Germany,2016,6.99
+Brazil,2016,6.95
+Belgium,2016,6.93
+Ireland,2016,6.91
+Luxembourg,2016,6.87
+Mexico,2016,6.78
+Singapore,2016,6.74
+United Kingdom,2016,6.72
+Chile,2016,6.71
+Panama,2016,6.70
+Argentina,2016,6.65
+Czech Republic,2016,6.60
+United Arab Emirates,2016,6.57
+Uruguay,2016,6.54
+Malta,2016,6.49
+Colombia,2016,6.48
+France,2016,6.48
+Thailand,2016,6.47
+Saudi Arabia,2016,6.38
+Taiwan,2016,6.38
+Qatar,2016,6.38
+Spain,2016,6.36
+Algeria,2016,6.36
+Guatemala,2016,6.32
+Suriname,2016,6.27
+Kuwait,2016,6.24
+Bahrain,2016,6.22
+Trinidad and Tobago,2016,6.17
+Venezuela,2016,6.08
+Slovakia,2016,6.08
+El Salvador,2016,6.07
+Malaysia,2016,6.00
+Nicaragua,2016,5.99
+Uzbekistan,2016,5.99
+Italy,2016,5.98
+Ecuador,2016,5.98
+Belize,2016,5.96
+Japan,2016,5.92
+Kazakhstan,2016,5.92
+Moldova,2016,5.90
+Russia,2016,5.86
+Poland,2016,5.83
+South Korea,2016,5.83
+Bolivia,2016,5.82
+Lithuania,2016,5.81
+Belarus,2016,5.80
+North Cyprus,2016,5.77
+Slovenia,2016,5.77
+Peru,2016,5.74
+Turkmenistan,2016,5.66
+Mauritius,2016,5.65
+Libya,2016,5.62
+Latvia,2016,5.56
+Cyprus,2016,5.55
+Paraguay,2016,5.54
+Romania,2016,5.53
+Estonia,2016,5.52
+Jamaica,2016,5.51
+Croatia,2016,5.49
+Hong Kong,2016,5.46
+Somalia,2016,5.44
+Kosovo,2016,5.40
+Turkey,2016,5.39
+Indonesia,2016,5.31
+Jordan,2016,5.30
+Azerbaijan,2016,5.29
+Philippines,2016,5.28
+China,2016,5.25
+Bhutan,2016,5.20
+Kyrgyzstan,2016,5.18
+Serbia,2016,5.18
+Bosnia and Herzegovina,2016,5.16
+Montenegro,2016,5.16
+Dominican Republic,2016,5.16
+Morocco,2016,5.15
+Hungary,2016,5.14
+Pakistan,2016,5.13
+Lebanon,2016,5.13
+Portugal,2016,5.12
+Macedonia,2016,5.12
+Vietnam,2016,5.06
+Somaliland Region,2016,5.06
+Tunisia,2016,5.04
+Greece,2016,5.03
+Tajikistan,2016,5.00
+Mongolia,2016,4.91
+Laos,2016,4.88
+Nigeria,2016,4.88
+Honduras,2016,4.87
+Iran,2016,4.81
+Zambia,2016,4.79
+Nepal,2016,4.79
+Palestinian Territories,2016,4.75
+Albania,2016,4.66
+Bangladesh,2016,4.64
+Sierra Leone,2016,4.63
+Iraq,2016,4.58
+Namibia,2016,4.57
+Cameroon,2016,4.51
+Ethiopia,2016,4.51
+South Africa,2016,4.46
+Sri Lanka,2016,4.42
+India,2016,4.40
+Myanmar,2016,4.39
+Egypt,2016,4.36
+Armenia,2016,4.36
+Kenya,2016,4.36
+Ukraine,2016,4.32
+Ghana,2016,4.28
+Congo (Kinshasa),2016,4.27
+Georgia,2016,4.25
+Congo (Brazzaville),2016,4.24
+Senegal,2016,4.22
+Bulgaria,2016,4.22
+Mauritania,2016,4.20
+Zimbabwe,2016,4.19
+Malawi,2016,4.16
+Sudan,2016,4.14
+Gabon,2016,4.12
+Mali,2016,4.07
+Haiti,2016,4.03
+Botswana,2016,3.97
+Comoros,2016,3.96
+Ivory Coast,2016,3.92
+Cambodia,2016,3.91
+Angola,2016,3.87
+Niger,2016,3.86
+South Sudan,2016,3.83
+Chad,2016,3.76
+Burkina Faso,2016,3.74
+Uganda,2016,3.74
+Yemen,2016,3.72
+Madagascar,2016,3.69
+Tanzania,2016,3.67
+Liberia,2016,3.62
+Guinea,2016,3.61
+Rwanda,2016,3.52
+Benin,2016,3.48
+Afghanistan,2016,3.36
+Togo,2016,3.30
+Syria,2016,3.07
+Burundi,2016,2.90
+Norway,2017,7.54
+Denmark,2017,7.52
+Iceland,2017,7.50
+Switzerland,2017,7.49
+Finland,2017,7.47
+Netherlands,2017,7.38
+Canada,2017,7.32
+New Zealand,2017,7.31
+Sweden,2017,7.28
+Australia,2017,7.28
+Israel,2017,7.21
+Costa Rica,2017,7.08
+Austria,2017,7.01
+United States,2017,6.99
+Ireland,2017,6.98
+Germany,2017,6.95
+Belgium,2017,6.89
+Luxembourg,2017,6.86
+United Kingdom,2017,6.71
+Chile,2017,6.65
+United Arab Emirates,2017,6.65
+Brazil,2017,6.64
+Czech Republic,2017,6.61
+Argentina,2017,6.60
+Mexico,2017,6.58
+Singapore,2017,6.57
+Malta,2017,6.53
+Uruguay,2017,6.45
+Guatemala,2017,6.45
+Panama,2017,6.45
+France,2017,6.44
+Thailand,2017,6.42
+Taiwan Province of China,2017,6.42
+Spain,2017,6.40
+Qatar,2017,6.38
+Colombia,2017,6.36
+Saudi Arabia,2017,6.34
+Trinidad and Tobago,2017,6.17
+Kuwait,2017,6.11
+Slovakia,2017,6.10
+Bahrain,2017,6.09
+Malaysia,2017,6.08
+Nicaragua,2017,6.07
+Ecuador,2017,6.01
+El Salvador,2017,6.00
+Poland,2017,5.97
+Uzbekistan,2017,5.97
+Italy,2017,5.96
+Russia,2017,5.96
+Belize,2017,5.96
+Japan,2017,5.92
+Lithuania,2017,5.90
+Algeria,2017,5.87
+Latvia,2017,5.85
+South Korea,2017,5.84
+Moldova,2017,5.84
+Romania,2017,5.82
+Bolivia,2017,5.82
+Turkmenistan,2017,5.82
+Kazakhstan,2017,5.82
+North Cyprus,2017,5.81
+Slovenia,2017,5.76
+Peru,2017,5.72
+Mauritius,2017,5.63
+Cyprus,2017,5.62
+Estonia,2017,5.61
+Belarus,2017,5.57
+Libya,2017,5.53
+Turkey,2017,5.50
+Paraguay,2017,5.49
+Hong Kong S.A.R., China,2017,5.47
+Philippines,2017,5.43
+Serbia,2017,5.39
+Jordan,2017,5.34
+Hungary,2017,5.32
+Jamaica,2017,5.31
+Croatia,2017,5.29
+Kosovo,2017,5.28
+China,2017,5.27
+Pakistan,2017,5.27
+Indonesia,2017,5.26
+Venezuela,2017,5.25
+Montenegro,2017,5.24
+Morocco,2017,5.24
+Azerbaijan,2017,5.23
+Dominican Republic,2017,5.23
+Greece,2017,5.23
+Lebanon,2017,5.22
+Portugal,2017,5.20
+Bosnia and Herzegovina,2017,5.18
+Honduras,2017,5.18
+Macedonia,2017,5.18
+Somalia,2017,5.15
+Vietnam,2017,5.07
+Nigeria,2017,5.07
+Tajikistan,2017,5.04
+Bhutan,2017,5.01
+Kyrgyzstan,2017,5.00
+Nepal,2017,4.96
+Mongolia,2017,4.95
+South Africa,2017,4.83
+Tunisia,2017,4.80
+Palestinian Territories,2017,4.78
+Egypt,2017,4.74
+Bulgaria,2017,4.71
+Sierra Leone,2017,4.71
+Cameroon,2017,4.70
+Iran,2017,4.69
+Albania,2017,4.64
+Bangladesh,2017,4.61
+Namibia,2017,4.57
+Kenya,2017,4.55
+Mozambique,2017,4.55
+Myanmar,2017,4.55
+Senegal,2017,4.53
+Zambia,2017,4.51
+Iraq,2017,4.50
+Gabon,2017,4.47
+Ethiopia,2017,4.46
+Sri Lanka,2017,4.44
+Armenia,2017,4.38
+India,2017,4.32
+Mauritania,2017,4.29
+Congo (Brazzaville),2017,4.29
+Georgia,2017,4.29
+Congo (Kinshasa),2017,4.28
+Mali,2017,4.19
+Ivory Coast,2017,4.18
+Cambodia,2017,4.17
+Sudan,2017,4.14
+Ghana,2017,4.12
+Ukraine,2017,4.10
+Uganda,2017,4.08
+Burkina Faso,2017,4.03
+Niger,2017,4.03
+Malawi,2017,3.97
+Chad,2017,3.94
+Zimbabwe,2017,3.88
+Lesotho,2017,3.81
+Angola,2017,3.80
+Afghanistan,2017,3.79
+Botswana,2017,3.77
+Benin,2017,3.66
+Madagascar,2017,3.64
+Haiti,2017,3.60
+Yemen,2017,3.59
+South Sudan,2017,3.59
+Liberia,2017,3.53
+Guinea,2017,3.51
+Togo,2017,3.49
+Rwanda,2017,3.47
+Syria,2017,3.46
+Tanzania,2017,3.35
+Burundi,2017,2.90
+Central African Republic,2017,2.69
