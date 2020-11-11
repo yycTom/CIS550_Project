@@ -4,7 +4,7 @@ CREATE TABLE COVID (
     date datetime, 
     longitude float(24), 
     latitude float(24), 
-    confirmed int(11)
+    confirmed int(11),
     death int(11),
     recovered int(11),
     PRIMARY KEY(country, province, date),
