@@ -24,17 +24,17 @@ CREATE TABLE Air_Traffic (
 
 CREATE TABLE Case_Gender (
     country varchar(20),
-    female_percent decimal(5,4),
-    male_percent decimal(5,4),
+    female_percent float(24),
+    male_percent float(24),
     PRIMARY KEY(country),
     FOREIGN KEY(country) REFERENCES Country(country)
 );
 
 CREATE TABLE Country (
     country varchar(20),
-    med_age int(11),
-    life_expectancy int(11),
-    gdp int(11),
+    med_age float(24),
+    life_expectancy float(24),
+    gdp float(24),
     PRIMARY KEY(country)
 );
 
