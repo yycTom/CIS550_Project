@@ -13,7 +13,7 @@ CREATE TABLE COVID (
 
 CREATE TABLE Air_Traffic (
     airport varchar(20),
-    date datetime,
+    date date,
     country varchar(20),
     state varchar(20),
     city varchar(20),
