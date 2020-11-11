@@ -32,7 +32,6 @@ export default class PageNavbar extends React.Component {
     this.setState({
       navDivs: navbarDivs,
     });
-    console.log(this.state.navDivs)
   }
 
   render() {

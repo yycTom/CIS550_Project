@@ -5,7 +5,7 @@ export default class First_case_death extends Component {
     render() {
         return (
             <div>
-                <PageNavbar />
+                <PageNavbar active={"first_case_death"}/>
             </div>
         )
     }

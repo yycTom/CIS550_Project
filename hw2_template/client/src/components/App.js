@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Login from "./Login"
 import Home from "./Home";
 import COVID19_world_map from "./COVID19_world_map"
 import Compare from "./Compare"
@@ -11,6 +12,7 @@ export default class App extends React.Component {
       <div className="App">
         <Router>
           <Switch>
+            {/* <Route exact path="/" render={() => <Login />} /> */}
             <Route exact path="/" render={() => <Home />} />
             <Route exact path="/home" render={() => <Home />} />
             <Route path="/covid19_world_map" render={() => <COVID19_world_map />} />

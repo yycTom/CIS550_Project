@@ -5,7 +5,7 @@ export default class Explore extends Component {
     render() {
         return (
             <div>
-                <PageNavbar />
+                <PageNavbar active="explore"/>
             </div>
         )
     }

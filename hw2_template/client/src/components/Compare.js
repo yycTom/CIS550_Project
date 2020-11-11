@@ -5,7 +5,7 @@ export default class Compare extends Component {
     render() {
         return (
             <div>
-                <PageNavbar />
+                <PageNavbar active="compare"/>
             </div>
         )
     }

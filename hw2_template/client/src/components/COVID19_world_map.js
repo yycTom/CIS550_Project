@@ -9,7 +9,6 @@ export default class COVID19_world_map extends Component {
                 <div>
                 <h1 style= {{color:'white'}}>  This is map </h1>
                 </div>
-                
             </div>
         )
     }
