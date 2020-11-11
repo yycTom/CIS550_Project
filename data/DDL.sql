@@ -24,8 +24,8 @@ CREATE TABLE Air_Traffic (
 
 CREATE TABLE Case_Gender (
     country varchar(20),
-    female_percent int(11),
-    male_percent int(11),
+    female_percent decimal(5,4),
+    male_percent decimal(5,4),
     PRIMARY KEY(country),
     FOREIGN KEY(country) REFERENCES Country(country)
 );
