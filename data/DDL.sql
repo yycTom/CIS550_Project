@@ -44,4 +44,4 @@ CREATE TABLE Happiness (
     score int(11),
     PRIMARY KEY(country, year),
     FOREIGN KEY(country) REFERENCES Country(country)
-)
+);
