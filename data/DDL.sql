@@ -41,7 +41,7 @@ CREATE TABLE Country (
 CREATE TABLE Happiness (
     country varchar(20),
     year int(11),
-    score int(11),
+    score float(24),
     PRIMARY KEY(country, year),
     FOREIGN KEY(country) REFERENCES Country(country)
 );
