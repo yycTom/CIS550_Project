@@ -2,8 +2,8 @@ CREATE TABLE COVID (
     country varchar(20), 
     province varchar(20), 
     date datetime, 
-    longitude char(2), 
-    latitude char(3), 
+    longitude float(24), 
+    latitude float(24), 
     confirmed int(11)
     death int(11),
     recovered int(11),
@@ -17,7 +17,7 @@ CREATE TABLE Air_Traffic (
     country varchar(20),
     state varchar(20),
     city varchar(20),
-    baseline_percent varchar(20),
+    baseline_percent float(24),
     PRIMARY KEY(airport, date),
     FOREIGN KEY(country) REFERENCES Country(country)
 );
