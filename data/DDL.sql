@@ -1,7 +1,7 @@
 CREATE TABLE COVID ( 
     country varchar(20), 
     province varchar(20), 
-    date datetime, 
+    date date, 
     longitude float(24), 
     latitude float(24), 
     confirmed int(11),

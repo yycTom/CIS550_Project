@@ -88,4 +88,9 @@ with open("processed/COVID.csv", 'w') as f:
     covid = pd.read_csv("Original_Data/covid_19_all.csv").dropna(subset = ['Country/Region', 'Province/State', 'Date']).values.tolist()
     print("country,province,date,longitude,latitude,confirmed,death,recovered", file = f)
     for instance in covid:
-        print("%s,%s,%s,%.2f,%.2f,%.f,%.f,%.f" % (instance[0], instance[1], instance[7], instance[3], instance[2], instance[4], instance[6], instance[5]), file = f)
+        MM = instance[7].split("/")[0]
+        DD = instance[7].split("/")[1]
+        YYYY = "20" + instance[7].split("/")[2]
+        print("%s,%s,%s,%.2f,%.2f,%.f,%.f,%.f" % (instance[0], instance[1], YYYY + "-" + MM + "-" + DD, instance[3], instance[2], instance[4], instance[6], instance[5]), file = f)
+        
+        
