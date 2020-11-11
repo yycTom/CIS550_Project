@@ -22,7 +22,7 @@ for file_name in files:
     happiness_index[year] = pd.read_csv(dir_name + file_name).dropna(subset = subset)
 
 with open('processed/Happiness.csv', 'w') as f:
-    print("country,year,score", file = f)
+    #print("country,year,score", file = f)
     for year in happiness_index.keys():
         tab = happiness_index[year]
         for instance in happiness_index[year].values.tolist():
@@ -58,7 +58,7 @@ for instance in med_age:
         #print("creating new key in country_info:", instance[0])
         
 with open("processed/Country.csv", 'w') as f:
-    print("country,med_age,life_expectancy,gdp", file = f)
+    #print("country,med_age,life_expectancy,gdp", file = f)
     for country in country_info.keys():
         if len(country_info[country].keys()) == 3:
             print("%s,%.1f,%.1f,%.1f" % (country, country_info[country]["med_age"], country_info[country]["life_exp"], country_info[country]["GDP"]), file = f)
@@ -68,7 +68,7 @@ with open("processed/Country.csv", 'w') as f:
 ###################
 with open("processed/Case_Gender.csv", 'w') as f:
     gender = pd.read_csv("Original_Data/gender.csv").dropna(subset = ["Country", "Cases (% male)", "Cases (% female)"]).values.tolist()
-    print("country,female_percent,male_percent", file = f)
+    #print("country,female_percent,male_percent", file = f)
     for instance in gender:
         print("%s,%s,%s" % (instance[1], instance[5], instance[6]), file = f)
         
@@ -77,7 +77,7 @@ with open("processed/Case_Gender.csv", 'w') as f:
 ###################
 with open("processed/Air_Traffic.csv", 'w') as f:
     air_traffic = pd.read_csv("Original_Data/covid_impact_on_airport_traffic.csv").dropna(subset = ['Date', 'AirportName']).values.tolist()
-    print("airport,date,country,state,city,baseline_percent", file = f)
+    #print("airport,date,country,state,city,baseline_percent", file = f)
     for instance in air_traffic:
         print("%s,%s,%s,%s,%s,%d" % (instance[3], instance[1], instance[9], instance[7], instance[6], instance[4]), file = f)
         
@@ -86,7 +86,7 @@ with open("processed/Air_Traffic.csv", 'w') as f:
 #############
 with open("processed/COVID.csv", 'w') as f:
     covid = pd.read_csv("Original_Data/covid_19_all.csv").dropna(subset = ['Country/Region', 'Province/State', 'Date']).values.tolist()
-    print("country,province,date,longitude,latitude,confirmed,death,recovered", file = f)
+    #print("country,province,date,longitude,latitude,confirmed,death,recovered", file = f)
     for instance in covid:
         MM = instance[7].split("/")[0]
         DD = instance[7].split("/")[1]
