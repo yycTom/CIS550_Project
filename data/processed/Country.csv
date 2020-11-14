@@ -1,4 +1,5 @@
 Afghanistan,27.4,64.5,2182.0
+Albania,32.9,nan,14866.0
 Algeria,28.1,76.7,16091.0
 Angola,15.9,60.8,6763.0
 Antigua and Barbuda,31.9,76.9,30593.0
@@ -41,6 +42,7 @@ Czech Republic,42.1,79.2,40585.0
 Democratic Republic of the Congo,18.6,60.4,873.0
 Denmark,42.2,80.8,55675.0
 Djibouti,23.9,66.6,5855.0
+Dominica,33.5,nan,12851.0
 Dominican Republic,28.1,73.9,20625.0
 East Timor,18.9,69.3,5321.0
 Ecuador,27.7,76.8,11866.0
@@ -93,9 +95,11 @@ Liberia,17.8,63.7,1428.0
 Libya,28.9,72.7,9446.0
 Lithuania,43.7,75.7,38751.0
 Luxembourg,39.3,82.1,112045.0
+Macau,39.3,nan,113352.0
 Madagascar,19.7,66.7,1776.0
 Malawi,16.5,63.8,1292.0
 Malaysia,28.5,76.1,34567.0
+Maldives,28.2,nan,24796.0
 Mali,15.8,58.9,2569.0
 Malta,41.8,82.4,49589.0
 Marshall Islands,22.9,73.9,3972.0
@@ -108,7 +112,9 @@ Mongolia,28.3,69.7,15089.0
 Montenegro,40.7,76.8,21977.0
 Morocco,29.3,76.5,9667.0
 Mozambique,17.2,60.2,1372.0
+Myanmar,nan,66.9,7220.0
 Namibia,21.2,63.4,11451.0
+Nauru,26.4,nan,9073.0
 Nepal,24.1,70.5,3550.0
 Netherlands,42.6,82.1,60299.0
 New Zealand,37.9,82.1,42045.0
@@ -127,6 +133,7 @@ Peru,28.0,76.5,15399.0
 Philippines,23.5,71.1,10094.0
 Poland,40.7,78.5,35651.0
 Portugal,42.2,81.9,34936.0
+Puerto Rico,41.5,nan,41198.0
 Republic of the Congo,19.7,64.3,7336.0
 Romania,41.1,75.9,29555.0
 Russia,39.6,72.4,30820.0
@@ -135,6 +142,7 @@ Saint Kitts and Nevis,35.0,74.6,31950.0
 Saint Lucia,34.8,76.1,15159.0
 Saint Vincent and the Grenadines,33.6,72.4,12983.0
 Samoa,24.4,73.2,6493.0
+San Marino,44.4,nan,62913.0
 Saudi Arabia,27.5,75.0,56912.0
 Senegal,18.8,67.7,4079.0
 Serbia,42.6,75.8,19767.0
@@ -146,12 +154,15 @@ Slovenia,44.5,81.2,40344.0
 Solomon Islands,22.5,72.8,2363.0
 Somalia,18.1,56.7,314.5
 South Africa,27.1,63.9,13965.0
+South Korea,41.8,nan,46452.0
 South Sudan,17.3,57.6,1715.0
 Spain,42.7,83.4,43007.0
 Sri Lanka,32.8,76.8,14509.0
 Sudan,19.9,65.1,3986.0
 Suriname,29.8,71.6,16044.0
 Sweden,41.2,82.7,55989.0
+Switzerland,42.4,nan,67558.0
+Taiwan,40.7,nan,57214.0
 Tajikistan,24.5,70.9,3751.0
 Tanzania,17.7,65.0,3652.0
 Thailand,37.7,76.9,21361.0
@@ -163,6 +174,7 @@ Trinidad and Tobago,36.0,73.4,33713.0
 Tunisia,31.6,76.5,13093.0
 Turkey,30.9,78.3,29327.0
 Turkmenistan,27.9,68.1,21855.0
+Tuvalu,25.7,nan,4535.0
 Uganda,15.8,63.0,2753.0
 Ukraine,40.6,72.0,10130.0
 United Arab Emirates,30.3,77.8,70441.0
@@ -176,3 +188,37 @@ Vietnam,30.5,75.3,8677.0
 Yemen,19.5,66.1,2312.0
 Zambia,16.8,63.5,4174.0
 Zimbabwe,20.0,61.2,2778.0
+Andorra,44.3,81.8,nan
+Liechtenstein,43.2,80.5,nan
+Palestine,nan,73.9,nan
+Sao Tome and Principe,18.4,70.2,nan
+Syria,24.3,71.8,nan
+American Samoa,25.5,nan,nan
+Anguilla,34.8,nan,nan
+Aruba,39.3,nan,nan
+Bermuda,43.4,nan,nan
+British Virgin Islands,36.5,nan,nan
+Cayman Islands,40.0,nan,nan
+Cook Islands,36.5,nan,nan
+Curacao,36.1,nan,nan
+Faroe Islands,37.6,nan,nan
+French Polynesia,31.9,nan,nan
+Gibraltar,34.7,nan,nan
+Guam,29.0,nan,nan
+Guernsey,43.8,nan,nan
+Isle of Man,44.2,nan,nan
+Jersey,38.0,nan,nan
+North Korea,34.0,nan,nan
+Monaco,53.1,nan,nan
+Montserrat,33.2,nan,nan
+New Caledonia,32.0,nan,nan
+Northern Mariana Islands,33.6,nan,nan
+Qatar,33.2,nan,nan
+Saint Barthelemy,44.1,nan,nan
+Saint Martin,32.5,nan,nan
+Saint Pierre and Miquelon,46.5,nan,nan
+Sint Maarten,41.0,nan,nan
+Turks and Caicos Islands,33.3,nan,nan
+Virgin Islands,41.0,nan,nan
+Wallis and Futuna,32.2,nan,nan
+Western Sahara,21.1,nan,nan
