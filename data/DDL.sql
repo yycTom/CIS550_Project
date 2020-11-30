@@ -45,3 +45,16 @@ CREATE TABLE Happiness (
     PRIMARY KEY(country, year),
     FOREIGN KEY(country) REFERENCES Country(country)
 );
+
+CREATE TABLE First_Case_First_Dead (
+    continent varchar(20),
+    country varchar(20),
+    date_of_first_case date,
+    last_visited_country varchar(20),
+    confirmed_case_at_first_day int(11),
+    age_of_first_case varchar(20),
+    date_of_first_death date,
+    age_of_first_death varchar(20),
+    PRIMARY KEY(country),
+    FOREIGN KEY(country) REFERENCES Country(country) 
+)
