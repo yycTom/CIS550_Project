@@ -1,13 +1,13 @@
 CREATE TABLE COVID ( 
     country varchar(20), 
-    province varchar(20), 
+    province varchar(50), 
     date date, 
-    longitude float(24), 
-    latitude float(24), 
+    longitude float(20), 
+    latitude float(20), 
     confirmed int(11),
     death int(11),
     recovered int(11),
-    PRIMARY KEY(country, province, date),
+    PRIMARY KEY(country, province, date, longitude, latitude),
     FOREIGN KEY(country) REFERENCES Country(country)
 );
 
