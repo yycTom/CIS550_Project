@@ -7,7 +7,7 @@ CREATE TABLE COVID (
     confirmed int(11),
     death int(11),
     recovered int(11),
-    PRIMARY KEY(country, province, date, longitude, latitude),
+    PRIMARY KEY(country, date, longitude, latitude),
     FOREIGN KEY(country) REFERENCES Country(country)
 );
 
@@ -50,11 +50,11 @@ CREATE TABLE First_Case_First_Dead (
     continent varchar(20),
     country varchar(20),
     date_of_first_case date,
-    last_visited_country varchar(20),
+    last_visited_country varchar(100),
     confirmed_case_at_first_day int(11),
     age_of_first_case varchar(20),
-    date_of_first_death date,
+    date_of_first_death varchar(50),
     age_of_first_death varchar(20),
     PRIMARY KEY(country),
     FOREIGN KEY(country) REFERENCES Country(country) 
-)
+);
