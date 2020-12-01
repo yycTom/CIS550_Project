@@ -58,3 +58,11 @@ CREATE TABLE First_Case_First_Dead (
     PRIMARY KEY(country),
     FOREIGN KEY(country) REFERENCES Country(country) 
 );
+
+CREATE TABLE LatLng (
+    country varchar(20),
+    latitude int(11),
+    longitude int(11),
+    PRIMARY KEY(country),
+    FOREIGN KEY(country) REFERENCES Country(country)
+);
