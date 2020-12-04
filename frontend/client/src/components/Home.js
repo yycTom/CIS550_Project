@@ -41,6 +41,7 @@ export default class Home extends Component {
             <div>
               
                 <div>
+                    {/* <Link to={'fix_bountry.html'} >{this.state.columnList[0]}</Link> */}
                     <Link to={'/covid19_world_map'} >{this.state.columnList[0]}</Link>
                 </div>
                 
