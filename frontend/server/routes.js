@@ -4,23 +4,60 @@ var mysql = require("mysql");
 config.connectionLimit = 10;
 var connection = mysql.createPool(config);
 
-/* -------------------------------------------------- */
-/* ------------------- Route Handlers --------------- */
-/* -------------------------------------------------- */
+/* ---- COVID19_world_map initial ---- */
+function covid19_world_map(req, res) {
+  var query = `select country, sum(confirmed) as confirmed, sum(death) as death, sum(recovered) as recovered from COVID where date = '2020-10-03' group by country; 
+                select * from LatLng`;
+  connection.query(query, [1, 2], function (err, rows, fields) {
+    if (err) console.log(err);
+    else {
+      res.json(rows)
+    }
+  });    
+}
 
-/* ---- Q1a (Dashboard) ---- */
-function getAllGenres(req, res) {
-  var query = `select distinct genre from Genres`;
+/* ---- COVID19_world_map search date ---- */
+function getSpecificDate(req, res) {
+  var date = req.params.date
+  var query = `select country, sum(confirmed) as confirmed, sum(death) as death, sum(recovered) as recovered from COVID where date = '${date}' group by country`;       
   connection.query(query, function (err, rows, fields) {
     if (err) console.log(err);
     else {
-      res.json(rows);
+      res.json(rows)
     }
-  });
+  });  
 }
 
-// select m.title, m.rating, m.vote_count from Movies m where
-//   m.id in (select g.movie_id from Genres g where g.genre = 'Family') order by m.rating, m.vote_count limit 10;
+function getCountryList (req, res) {
+  var query = `select distinct country from Country`
+  connection.query(query, function (err, rows, fields) {
+    if (err) console.log(err);
+    else {
+      res.json(rows)
+    }
+  });  
+}
+
+/* ---- compare search two countries ---- */
+function getCompareCountries(req, res) {
+  var country1 = req.params.country1
+  var country2 = req.params.country2
+  // first query is to output country1, country2 name and death, confirmed in each country
+  // second query is to output country1, country2 name and med_age, life_expectancy, gdp
+  // second is to output country1, country2 name, female_percent, male_percent 
+  var query = `select country, date, confirmed, death from COVID where country = '${country1}';
+                 select country, date, confirmed, death from COVID where country = '${country2}';
+                 select country, med_age, life_expectancy, gdp from Country where country = '${country1}';
+                 select country, med_age, life_expectancy, gdp from Country where country = '${country2}';
+                 select country, female_percent, male_percent from Case_Gender where country = '${country1}';
+                 select country, female_percent, male_percent from Case_Gender where country = '${country2}';`
+  connection.query(query, [1, 2, 3, 4, 5, 6], function (err, rows, fields) {
+    if (err) console.log(err);
+    else {
+      res.json(rows)
+    }
+  });   
+}
 
 /* ---- Q1b (Dashboard) ---- */
 function getTopInGenre(req, res) {
@@ -95,7 +132,6 @@ function getRandomMovies(req, res) {
   connection.query(query, function (err, rows, fields) {
     if (err) console.log(err);
     else {
-      console.log(rows);
       res.json(rows);
     }
   });
@@ -103,10 +139,16 @@ function getRandomMovies(req, res) {
 
 // The exported functions, which can be accessed in index.js.
 module.exports = {
-  getAllGenres: getAllGenres,
+  covid19_world_map: covid19_world_map,
+  getSpecificDate : getSpecificDate,
+  getCountryList : getCountryList,
+  getCompareCountries : getCompareCountries,
+
+
   getTopInGenre: getTopInGenre,
   getRecs: getRecs,
   getDecades: getDecades,
   bestGenresPerDecade: bestGenresPerDecade,
   getRandomMovies: getRandomMovies,
+  
 };

@@ -9,15 +9,14 @@ app.use(cors({ credentials: true, origin: "http://localhost:3000" }));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-/* ---------------------------------------------------------------- */
-/* ------------------- Route handler registration ----------------- */
-/* ---------------------------------------------------------------- */
+// for COVID19_world_map
+app.get("/covid19_world_map", routes.covid19_world_map);
 
-/* ---- (Dashboard) ---- */
-// The route localhost:8081/genres is registered to the function
-// routes.getAllGenres, specified in routes.js.
-app.get("/genres", routes.getAllGenres);
+app.get("/covid19_world_map/:date", routes.getSpecificDate);
 
+app.get("/compare", routes.getCountryList)
+
+app.get("/compare/:country1/:country2", routes.getCompareCountries);
 /* ---- Q1b (Dashboard) ---- */
 app.get("/genres/:genre", routes.getTopInGenre); // Hint: Replace () => {} with the appropriate route handler.
 
