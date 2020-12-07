@@ -66,3 +66,19 @@ CREATE TABLE LatLng (
     PRIMARY KEY(country),
     FOREIGN KEY(country) REFERENCES Country(country)
 );
+
+CREATE TABLE FirstCaseReferences (
+    country varchar(20),
+    source1 varchar(200),
+    source2 varchar(200),
+    PRIMARY KEY(country),
+    FOREIGN KEY(country) REFERENCES Country(country)
+);
+
+CREATE TABLE FirstDeathReferences (
+    country varchar(20),
+    source1 varchar(200),
+    source2 varchar(200),
+    PRIMARY KEY(country),
+    FOREIGN KEY(country) REFERENCES Country(country)
+);
