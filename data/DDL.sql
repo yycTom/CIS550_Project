@@ -16,7 +16,6 @@ CREATE TABLE Air_Traffic (
     date date,
     country varchar(20),
     state varchar(20),
-    city varchar(20),
     baseline_percent float(24),
     PRIMARY KEY(airport, date),
     FOREIGN KEY(country) REFERENCES Country(country)
@@ -47,7 +46,6 @@ CREATE TABLE Happiness (
 );
 
 CREATE TABLE First_Case_First_Dead (
-    continent varchar(20),
     country varchar(20),
     date_of_first_case date,
     last_visited_country varchar(100),
