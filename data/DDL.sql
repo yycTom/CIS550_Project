@@ -7,7 +7,7 @@ CREATE TABLE COVID (
     confirmed int(11),
     death int(11),
     recovered int(11),
-    PRIMARY KEY(country, date, longitude, latitude),
+    PRIMARY KEY(date, longitude, latitude),
     FOREIGN KEY(country) REFERENCES Country(country)
 );
 
@@ -17,7 +17,7 @@ CREATE TABLE Air_Traffic (
     country varchar(20),
     state varchar(20),
     baseline_percent float(24),
-    PRIMARY KEY(airport, date),
+    PRIMARY KEY(country, state, airport, date),
     FOREIGN KEY(country) REFERENCES Country(country)
 );
 
