@@ -12,7 +12,6 @@ export default class App extends React.Component {
       <div className="App">
         <Router>
           <Switch>
-            {/* <Route exact path="/" render={() => <Login />} /> */}
             <Route exact path="/" render={() => <Home />} />
             <Route exact path="/home" render={() => <Home />} />
             <Route path="/covid19_world_map" render={() => <COVID19_world_map />} />

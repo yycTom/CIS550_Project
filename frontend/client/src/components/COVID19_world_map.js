@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
 import PageNavbar from "./PageNavbar";
-import {MapContainer, GeoJSON, Popup, Marker, TileLayer} from 'react-leaflet'
+import {MapContainer, GeoJSON, Popup, Marker} from 'react-leaflet'
 import GeojsonData from './../countries.json'
 import 'leaflet/dist/leaflet.css'
 import '../style/COVID19_world_map.css'
 import L from 'leaflet';
-
 delete L.Icon.Default.prototype._getIconUrl;
 
 L.Icon.Default.mergeOptions({
@@ -27,7 +26,8 @@ export default class COVID19_world_map extends Component {
             hashMapCountryColor: new Map(),
             markers: new Map(),
             countries: [],
-            displayCountryName: ''
+            displayCountryName: '',
+            displayDate : ''
         }
         this.onEachCountry = this.onEachCountry.bind(this)
         // this.onCountryMouseover = this.onCountryMouseover.bind(this)
@@ -79,6 +79,7 @@ export default class COVID19_world_map extends Component {
                 countries : updatedCountries
             })
         })
+        
     }
 
     onEachCountry(country, layer){
@@ -86,6 +87,9 @@ export default class COVID19_world_map extends Component {
        
         const colorIndex = Math.floor(Math.random() * this.state.color.length)
         layer.options.fillColor = this.state.color[colorIndex]
+        if (countryName === 'United States') {
+            layer.options.fillColor = this.state.color[7]
+        }
         layer.on({
             click: (event)=>{
                 event.target.setStyle({
@@ -104,17 +108,26 @@ export default class COVID19_world_map extends Component {
 
     handleSearch(){
         if (this.state.markers.has(this.state.countryName)) {
-            console.log(this.state.countryName, this.state.markers.get(this.state.countryName), this.state.center)
+            
             this.setState({
                 center : this.state.markers.get(this.state.countryName)
             })
         }
 
-        this.setState({
-            displayCountryName : this.state.countryName
-        })
+        if (this.state.countries.includes(this.state.countryName)) {
+            this.setState({
+                displayCountryName : this.state.countryName
+            })
+        }
 
-        if (this.state.date != '') {
+        else {
+            this.setState({
+                displayCountryName : "This country doesn't exist!"
+            })
+        }
+        
+
+        if (this.state.date !== '' && this.state.date[4] === '-' && this.state.date.slice(5, 7) <= "10" && this.state.date.slice(8, 10) <= "30" && this.state.date.length === 10) {
             fetch("http://localhost:8081/covid19_world_map/" + this.state.date, {match : "GET"})
         .then((res)=>res.json())
         .then((map)=>{            
@@ -130,20 +143,25 @@ export default class COVID19_world_map extends Component {
             var updatedColorPeriod = []
             var min = 0;
             var max = 0;
-            for (var i = 0; i < map.length; i++) {
+            for (i = 0; i < map.length; i++) {
                 min = Math.min(min, map[i].confirmed)
                 max = Math.max(max, map[i].confirmed)
             }
-            for (var i = 0; i < 10; i++) {
+            for (i = 0; i < 10; i++) {
                 updatedColorPeriod.push(min + i / 9 * (max - min))
             }
 
             this.setState({
                 hashMap : updatedHashMap,
                 colorPeriod : updatedColorPeriod,
-                
+                displayDate : this.state.date
             })
         })
+        }
+        else {
+            this.setState({
+                displayDate : "This date doesn't exist!"
+            })
         }
     }
     
@@ -160,8 +178,10 @@ export default class COVID19_world_map extends Component {
 
                 <div className='displayCountry'>
                     <h4>{this.state.displayCountryName}</h4>
+                    <h4>{this.state.displayDate}</h4>
                     <h4>{this.state.hashMap.has(this.state.displayCountryName) ? 'confirmed : ' + this.state.hashMap.get(this.state.displayCountryName)[0] : ''}</h4>
                     <h4>{this.state.hashMap.has(this.state.displayCountryName) ? 'Death : ' + this.state.hashMap.get(this.state.displayCountryName)[1] : ''}</h4>
+                    
                 </div>
 
                 <GeoJSON 

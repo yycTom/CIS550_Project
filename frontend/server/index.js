@@ -17,20 +17,20 @@ app.get("/covid19_world_map/:date", routes.getSpecificDate);
 app.get("/compare", routes.getCountryList)
 
 app.get("/compare/:country1/:country2", routes.getCompareCountries);
-/* ---- Q1b (Dashboard) ---- */
-app.get("/genres/:genre", routes.getTopInGenre); // Hint: Replace () => {} with the appropriate route handler.
 
-/* ---- Q2 (Recommendations) ---- */
-app.get("/recommendations/:recommendationMovieTitle", routes.getRecs);
-/* ---- (Best Genre) ---- */
-app.get("/decades", routes.getDecades);
+app.get("/explore", routes.getCountryList)
 
-/* ---- Q3b (Best Genre) ---- */
-app.get("/decades/:decade", routes.bestGenresPerDecade);
+app.get("/explore/:country", routes.getStateList)
 
-/* ---- Q4 (Bonus part) ---- */
-app.get("/posters", routes.getRandomMovies);
+app.get("/explore/:country/:state", routes.getCountryState);
 
+app.get("/explore/:country/:state/:startDate/:endDate/:type", routes.getCompareGrowthCalculator)
+
+app.get("/explore/:country/:state/:startDate/:endDate/:lag1/:lag2", routes.getCompareCorrelationCalculator)
+
+app.get("/dropCalculator/:country/:score", routes.getCompareDropCalculator)
+
+app.get("/firstcase/:country", routes.getFirstCaseFirstDeath)
 app.listen(8081, () => {
   console.log(`Server listening on PORT 8081`);
 });
